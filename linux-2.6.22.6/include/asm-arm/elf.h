@@ -28,6 +28,8 @@ typedef struct user_fp elf_fpregset_t;
 #define R_ARM_CALL	28
 #define R_ARM_JUMP24	29
 
+#define R_ARM_V4BX     40
+
 /*
  * These are used to set parameters in the core dumps.
  */
@@ -110,8 +112,8 @@ extern char elf_platform[];
 
 #define ELF_ET_DYN_BASE	(2 * TASK_SIZE / 3)
 
-/* When the program starts, a1 contains a pointer to a function to be 
-   registered with atexit, as per the SVR4 ABI.  A value of 0 means we 
+/* When the program starts, a1 contains a pointer to a function to be
+   registered with atexit, as per the SVR4 ABI.  A value of 0 means we
    have no such handler.  */
 #define ELF_PLAT_INIT(_r, load_addr)	(_r)->ARM_r0 = 0
 
