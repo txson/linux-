@@ -54,62 +54,31 @@
 #endif
 
 /* LED devices */
+static struct resource led_resource[] = {
+    [0] = {
+        .start = 0x56000010,             /* TQ2440的LED是GPB5,6,7,8, GPBCON地址是0x56000010 */
+        .end   = 0x56000010 + 8 - 1,
+        .flags = IORESOURCE_MEM,
+    },
+    [1] = {
+        .start = 5,                      /* LED1 */
+        .end   = 5,
+        .flags = IORESOURCE_IRQ,
+    }
 
-static struct s3c24xx_led_platdata smdk_pdata_led4 = {
-	.gpio		= S3C2410_GPF4,
-	.flags		= S3C24XX_LEDF_ACTLOW | S3C24XX_LEDF_TRISTATE,
-	.name		= "led4",
-	.def_trigger	= "timer",
 };
 
-static struct s3c24xx_led_platdata smdk_pdata_led5 = {
-	.gpio		= S3C2410_GPF5,
-	.flags		= S3C24XX_LEDF_ACTLOW | S3C24XX_LEDF_TRISTATE,
-	.name		= "led5",
-	.def_trigger	= "nand-disk",
-};
+static void led_release(struct device * dev)
+{
+}
 
-static struct s3c24xx_led_platdata smdk_pdata_led6 = {
-	.gpio		= S3C2410_GPF6,
-	.flags		= S3C24XX_LEDF_ACTLOW | S3C24XX_LEDF_TRISTATE,
-	.name		= "led6",
-};
-
-static struct s3c24xx_led_platdata smdk_pdata_led7 = {
-	.gpio		= S3C2410_GPF7,
-	.flags		= S3C24XX_LEDF_ACTLOW | S3C24XX_LEDF_TRISTATE,
-	.name		= "led7",
-};
-
-static struct platform_device smdk_led4 = {
-	.name		= "s3c24xx_led",
-	.id		= 0,
-	.dev		= {
-		.platform_data = &smdk_pdata_led4,
-	},
-};
-
-static struct platform_device smdk_led5 = {
-	.name		= "s3c24xx_led",
-	.id		= 1,
-	.dev		= {
-		.platform_data = &smdk_pdata_led5,
-	},
-};
-
-static struct platform_device smdk_led6 = {
-	.name		= "s3c24xx_led",
-	.id		= 2,
-	.dev		= {
-		.platform_data = &smdk_pdata_led6,
-	},
-};
-
-static struct platform_device smdk_led7 = {
-	.name		= "s3c24xx_led",
-	.id		= 3,
-	.dev		= {
-		.platform_data = &smdk_pdata_led7,
+static struct platform_device led_dev = {
+	.name     		= "myled",
+	.id       		= -1,
+	.num_resources  = ARRAY_SIZE(led_resource),
+	.resource       = led_resource,
+	.dev = {
+		.release = led_release,
 	},
 };
 
@@ -243,13 +212,10 @@ static struct s3c2410_ts_mach_info s3c2410_ts_cfg = {
 
 static struct platform_device __initdata *smdk_devs[] = {
 	&s3c_device_nand,
-	&smdk_led4,
-	&smdk_led5,
-	&smdk_led6,
-	&smdk_led7,
+	&led_dev,
 #if defined(CONFIG_DM9000) || defined(CONFIG_DM9000_MODULE)
     &s3c_device_dm9k,
-#endif    
+#endif
 #ifdef CONFIG_SERIAL_EXTEND_S3C24xx
     &s3c_device_8250,
 #endif
@@ -261,16 +227,6 @@ static struct platform_device __initdata *smdk_devs[] = {
 void __init smdk_machine_init(void)
 {
 	/* Configure the LEDs (even if we have no LED support)*/
-
-	s3c2410_gpio_cfgpin(S3C2410_GPF4, S3C2410_GPF4_OUTP);
-	s3c2410_gpio_cfgpin(S3C2410_GPF5, S3C2410_GPF5_OUTP);
-	s3c2410_gpio_cfgpin(S3C2410_GPF6, S3C2410_GPF6_OUTP);
-	s3c2410_gpio_cfgpin(S3C2410_GPF7, S3C2410_GPF7_OUTP);
-
-	s3c2410_gpio_setpin(S3C2410_GPF4, 1);
-	s3c2410_gpio_setpin(S3C2410_GPF5, 1);
-	s3c2410_gpio_setpin(S3C2410_GPF6, 1);
-	s3c2410_gpio_setpin(S3C2410_GPF7, 1);
 
 	if (machine_is_smdk2443())
 		smdk_nand_info.twrph0 = 50;

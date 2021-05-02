@@ -11,6 +11,15 @@ config NEW_LEDS
 	  This is not related to standard keyboard LEDs which are controlled
 	  via the input system.
 
+config MY_LEDS
+	bool "MY LEDS"
+	help
+	  Say Y to enable Linux LED support.  This allows control of supported
+	  LEDs from both userspace and optionally, by kernel events (triggers).
+
+	  This is not related to standard keyboard LEDs which are controlled
+	  via the input system.
+
 config LEDS_CLASS
 	tristate "LED Class Support"
 	depends on NEW_LEDS
