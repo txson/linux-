@@ -103,8 +103,13 @@ static struct mtd_partition smdk_default_nand_part[] = {
 	[3] = {
         .name   = "root",
         .offset = MTDPART_OFS_APPEND,
+        .size   = 0x06400000,
+	},
+	[4] = {
+        .name   = "nand_test",
+        .offset = MTDPART_OFS_APPEND,
         .size   = MTDPART_SIZ_FULL,
-	}
+	},
 };
 
 static struct s3c2410_nand_set smdk_nand_sets[] = {
