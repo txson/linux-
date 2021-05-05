@@ -1,0 +1,87 @@
+skge.o: skge.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+skaddr.o: skaddr.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+skgehwt.o: skgehwt.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+skgeinit.o: skgeinit.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+skgepnmi.o: skgepnmi.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+skgesirq.o: skgesirq.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+ski2c.o: ski2c.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+sklm80.o: sklm80.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+skqueue.o: skqueue.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+skrlmt.o: skrlmt.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+sktimer.o: sktimer.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+skvpd.o: skvpd.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+skxmac2.o: skxmac2.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+skcsum.o: skcsum.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+uboot_skb.o: uboot_skb.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h
+uboot_drv.o: uboot_drv.c \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/common.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/linux/bitops.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/asm/bitops.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/linux/types.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/linux/config.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/linux/stddef.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/asm/types.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/linux/string.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/asm/string.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /usr/local/arm/4.4.3/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/part.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/ide.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/flash.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/image.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/asm/global_data.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/asm/setup.h \
+  /home/raoxu/Desktop/jz2440_download/uboot_doc/u-boot-1.1.6/include/asm/u-boot-arm.h
