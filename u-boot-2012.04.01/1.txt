@@ -1,0 +1,1000 @@
+ 1089  sudo dnw uImage
+ 1090  cd -
+ 1091  make menuconfi
+ 1092  make menuconfig
+ 1093  sudo dnw uImage
+ 1094  sudo make uImage
+ 1095  sudo cp arch/arm/boot/uImage  ~/Desktop/jz2440_download/
+ 1096  cd -
+ 1097  sudo dnw uImage
+ 1098  cd ~/Desktop/linux_learn/linux-/linux-2.6.22.6/
+ 1099  ls
+ 1100  gitkraken
+ 1101  cd arch/arm/
+ 1102  ls
+ 1103  cd plat-s3c24xx/
+ 1104  ls
+ 1105  vim common-smdk.c
+ 1106  ls
+ 1107  vim s3c244x.c
+ 1108  ls
+ 1109  vim devs.c
+ 1110  cd ../
+ 1111  ls
+ 1112  cd mach-s3c2440/
+ 1113  ls
+ 1114  vim mach-smdk2440.c
+ 1115  cd ../plat-s3c24xx/
+ 1116  ls
+ 1117  vim devs.c
+ 1118  ls
+ 1119  vim common-smdk.c
+ 1120  cd .../
+ 1121  cd ..
+ 1122  grep -r "s3c_device_i2c" ./
+ 1123  ls
+ 1124  cd plat-s3c24xx/
+ 1125  ls
+ 1126  vim Kconfig
+ 1127  vim Makefile
+ 1128  vim Kconfig
+ 1129  ls
+ 1130  cd ~/Desktop/linux_learn/linux-/linux-2.6.22.6/drivers/i2c/
+ 1131  ls
+ 1132  vim Kconfig
+ 1133  vim chips/Kconfig
+ 1134  ls chips/
+ 1135  vim Kconfig
+ 1136  vim chips/eeprom.c
+ 1137  vim chips/Kconfig
+ 1138  vim chips/Makefile
+ 1139  vim chips/Kconfig
+ 1140  vim chips/eeprom.c
+ 1141  cd -
+ 1142  vim chips/Makefile
+ 1143  vim chips/Kconfig
+ 1144  vim chips/eeprom.c
+ 1145  cd chips/
+ 1146  ls
+ 1147  vim eeprom.c
+ 1148  cd ../
+ 1149  grep -r "addr_data" ./
+ 1150  cd ../
+ 1151  grep -r "addr_data" ./
+ 1152  cd i2c/
+ 1153  grep -r "addr_data" ./
+ 1154  vim chips/m41t00.c
+ 1155  vim chips/m41t00.h
+ 1156  vim chips/m41t00.c
+ 1157  vim chips/eeprom.c
+ 1158  vim chips/m41t00.c
+ 1159  ls
+ 1160  git status
+ 1161  git restore .
+ 1162  git status
+ 1163  cd chips/
+ 1164  ls
+ 1165  vim Kconfig
+ 1166  vim Makefile
+ 1167  vim Kconfig
+ 1168  git status
+ 1169  git diff Kconfig
+ 1170  vim Kconfig
+ 1171  vim Makefile
+ 1172  vim Kconfig
+ 1173  git status
+ 1174  git add .
+ 1175  git status
+ 1176  git commit  -m "增加at24c驱动代码"
+ 1177  git push
+ 1178  ls
+ 1179  cd ~/Downloads/
+ 1180  ls
+ 1181  wine dkpc_dk001-dk-446.exe
+ 1182  wine WeChatSetup.exe
+ 1183  wine
+ 1184  cd
+ 1185  wine Wine
+ 1186  wine WeChat
+ 1187  cd Desktop/
+ 1188  ls
+ 1189  wine 微信.desktop
+ 1190  wechat.exe
+ 1191  wine wechat.exe
+ 1192  ls
+ 1193  cd
+ 1194  cd .wine
+ 1195  ls
+ 1196  cd dosdevices/
+ 1197  ls
+ 1198  cd c\:
+ 1199  ls
+ 1200  cd Program Files (x86)/
+ 1201  cd Program Files (x86)
+ 1202  cd Program\ Files\ (x86)
+ 1203  cd Program \Files \(x86)
+ 1204  ls
+ 1205  cd 'Program Files (x86)'
+ 1206  ls
+ 1207  cd Tencent/
+ 1208  sl
+ 1209  ls
+ 1210  cd WeChat/
+ 1211  ls
+ 1212  ./wechatweb.exe
+ 1213  wine wechatweb.exe
+ 1214  cd
+ 1215  vim .bashrc
+ 1216  source .bashrc
+ 1217  vim .bashrc
+ 1218  source .bashrc
+ 1219  wine
+ 1220  wine wechat.exe
+ 1221  wine 微信
+ 1222  ps
+ 1223  ps a
+ 1224  wine
+ 1225  wine wechat.exe
+ 1226  cd /home/raoxu/.wine/dosdevices/c:/'Program Files (x86)'/Tencent/WeChat
+ 1227  ls
+ 1228  wine WeChat.exe
+ 1229  pwd
+ 1230  vim ~/.bashrc
+ 1231  cd /home/raoxu/.wine/dosdevices/c:/Program Files (x86)/Tencent/WeChat
+ 1232  vim ~/.bashrc
+ 1233  source ~/.bashrc
+ 1234  wine Wechat.exe
+ 1235  sudo dpkg --add-architecture i386
+ 1236  sudo apt install wine-stable
+ 1237  winecfg
+ 1238  wine
+ 1239  cd ~/Downloads/
+ 1240  ls
+ 1241  wine dkpc_dk001-dk-446.exe
+ 1242  ls
+ 1243  wine WeChatSetup.exe
+ 1244  ls
+ 1245  cd Desktop/
+ 1246  cd mount/
+ 1247  ls
+ 1248  ls i2c
+ 1249  cd i2c/
+ 1250  ls
+ 1251  cd ../nand_test/
+ 1252  ls
+ 1253  vim nand_test.c
+ 1254  mv nand_test.c nand.c
+ 1255  ls
+ 1256  mv nand_test.c nand.c
+ 1257  sudo mv nand_test.c nand.c
+ 1258  mv nand.c ../i2c/i2c_tese.c
+ 1259  sudo mv nand.c ../i2c/i2c_tese.c
+ 1260  ls
+ 1261  cp ../i2c/i2c_tese.c ./
+ 1262  sudo cp ../i2c/i2c_tese.c ./
+ 1263  ls
+ 1264  mv i2c_tese.c nand_test.c
+ 1265  sudo mv i2c_tese.c nand_test.c
+ 1266  ls
+ 1267  vim nand_test.c
+ 1268  ls
+ 1269  ll
+ 1270  sudo chmod 777 nand_test.c
+ 1271  ls
+ 1272  ll
+ 1273  vim nand_test.c
+ 1274  ls
+ 1275  ll
+ 1276  vim nand_test.c
+ 1277  rm nand_test.c
+ 1278  sudo rm nand_test.c
+ 1279  ls
+ 1280  vim nand.c
+ 1281  cat nand.c
+ 1282  ls
+ 1283  cd
+ 1284  cd Desktop/
+ 1285  ls
+ 1286  touch nand.c
+ 1287  vim nand.c
+ 1288  mv nand.c mount/nand_test/
+ 1289  sudo mv nand.c mount/nand_test/
+ 1290  cd mount/nand_test/
+ 1291  ls
+ 1292  vim nand.c
+ 1293  arm-linux-gcc nand.c
+ 1294  vim nand.c
+ 1295  cd Desktop/mount/nand_test/
+ 1296  ls
+ 1297  arm-linux-gcc nand.c
+ 1298  vim ~/.vimrc
+ 1299  ls
+ 1300  arm-linux-gcc nand.c
+ 1301  arm-linux-gcc nand_1.c
+ 1302  sudo arm-linux-gcc nand_1.c
+ 1303  ls
+ 1304  sudo chmod 777 nand_1.c
+ 1305  sudo arm-linux-gcc nand_1.c
+ 1306  arm-linux-gcc nand_1.c
+ 1307  sudo arm-linux-gcc nand_1.c
+ 1308  cp nand_1.c ~/Desktop/
+ 1309  cd ~/Desktop/
+ 1310  ls
+ 1311  arm-linux-gcc nand_1.c
+ 1312  vim ~/.vimrc
+ 1313  arm-linux-gcc nand_1.c
+ 1314  cd mount/nand_test/
+ 1315  ls
+ 1316  arm-linux-gcc nand.c
+ 1317  sudo arm-linux-gcc nand.c
+ 1318  ls
+ 1319  rm nand_1.c
+ 1320  sudo rm nand_1.c
+ 1321  sudo arm-linux-gcc nand.c
+ 1322  ld
+ 1323  ls
+ 1324  rm a.out
+ 1325  sudo rm a.out
+ 1326  ls
+ 1327  sudo arm-linux-gcc nand.c
+ 1328  ls
+ 1329  sudo arm-linux-gcc nand.c
+ 1330  ls
+ 1331  rm a.out
+ 1332  sudo rm a.out
+ 1333  ls
+ 1334  sudo arm-linux-gcc nand.c
+ 1335  ls
+ 1336  touch boot.txt
+ 1337  notepadqq boot.txt
+ 1338  cd linux_learn/linux-/
+ 1339  ls
+ 1340  cd u-boot-1.1.6/
+ 1341  ls
+ 1342  cd common/
+ 1343  ls
+ 1344  sudo my_cmd.c
+ 1345  sudo vim my_cmd.c
+ 1346  sudo minicom
+ 1347  ls
+ 1348  cd Desktop/
+ 1349  ls
+ 1350  cd mount/
+ 1351  ls
+ 1352  vim 1.c
+ 1353  ls
+ 1354  arm-linux-gcc -g 1.c
+ 1355  ls
+ 1356  arm-linux-gdb a.out core
+ 1357  ls
+ 1358  sudo chmod 777 a.out
+ 1359  sudo chmod 777 core
+ 1360  arm-linux-gdb a.out core
+ 1361  ls
+ 1362  sudo minicom
+ 1363  ls
+ 1364  cd Desktop/
+ 1365  ls
+ 1366  cd 韦东山2440/
+ 1367  ls
+ 1368  cd B盘/
+ 1369  ls
+ 1370  cd system/system/
+ 1371  ls
+ 1372  cd linux-3.4.2/
+ 1373  ls
+ 1374  patch -p1 < ../linux-3.4.2_100ask.patch
+ 1375  cp config_ok .config
+ 1376  make uImage
+ 1377  sudo make uImage
+ 1378  which arm-linux-gcc
+ 1379  ll /usr/bin/arm-linux-gcc
+ 1380  cd /usr/local/arm/4.4.3/
+ 1381  ls
+ 1382  cd ../
+ 1383  ls
+ 1384  mv 4.4.3/ 4.4.3bak
+ 1385  sudo mv 4.4.3/ 4.4.3bak
+ 1386  cp ~/Desktop/4.3.2/ ./
+ 1387  cp ~/Desktop/4.3.2/ ./ -rf
+ 1388  sudo cp ~/Desktop/4.3.2/ ./ -rf
+ 1389  ll
+ 1390  cd -
+ 1391  cd
+ 1392  cd Desktop/
+ 1393  ls
+ 1394  cd jz2440_download/
+ 1395  ls
+ 1396  cd
+ 1397  ls
+ 1398  cd Desktop/韦东山
+ 1399  cd Desktop/韦东山2440/
+ 1400  ls
+ 1401  cd B盘/system/system/
+ 1402  ls
+ 1403  cd linux-3.4.2/
+ 1404  ls
+ 1405  sudo make uImage
+ 1406  source ~/.vimrc
+ 1407  ls
+ 1408  arm-linux-gcc
+ 1409  cd /usr/local/arm/4.3.2/
+ 1410  ls
+ 1411  cd ../
+ 1412  ls
+ 1413  mv 4.3.2/ 4.4.3/
+ 1414  sudo mv 4.3.2/ 4.4.3/
+ 1415  ls
+ 1416  cd ~/Desktop/韦东山2440/B盘/system/system/linux-3.4.2
+ 1417  ls
+ 1418  sudo make uImage
+ 1419  arm-linux-gcc
+ 1420  arm-linux-gcc --version
+ 1421  which arm-linux -gcc
+ 1422  pwd
+ 1423  cd /home/raoxu/Desktop/韦东山2440/B盘/system/system/linux-3.4.2
+ 1424  sudo make uImage
+ 1425  sudo apt-get install libc6-i386
+ 1426  arm-linux-gcc -v
+ 1427  sudo make uImage
+ 1428  grep -r "CROSS_COMPILE =" ./
+ 1429  make ARCH=arm CROSS_COMPILE=arm-none-linux-gnueabi- uImage
+ 1430  make clean
+ 1431  make uImage
+ 1432  history
+ 1433  make uImage
+ 1434  vim kernel/timeconst.pl
+ 1435  make uImage
+ 1436  ls
+ 1437  cp arch/arm/boot/uImage ~/Desktop/jz2440_download/
+ 1438  cd ~/Desktop/jz2440_download/
+ 1439  dnw uImage
+ 1440  sudo dnw uImage
+ 1441  ls
+ 1442  mkdir 3.4download
+ 1443  ls
+ 1444  mv uImage 3.4download/
+ 1445  ls
+ 1446  cd -
+ 1447  ls
+ 1448  cd ../
+ 1449  ls
+ 1450  mv linux-3.4.2 ~/Desktop/linux_learn/linux-/
+ 1451  cd ~/Desktop/linux_learn/linux-/
+ 1452  ls
+ 1453  git add .
+ 1454  git commit -m "上传linux3.4"
+ 1455  git push
+ 1456  cd Desktop/
+ 1457  ls
+ 1458  cd linux_learn/
+ 1459  ls
+ 1460  cd
+ 1461  ls
+ 1462  cd Desktop/
+ 1463  ls
+ 1464  cleaR
+ 1465  LS
+ 1466  clear
+ 1467  ls
+ 1468  cd mount/
+ 1469  ls
+ 1470  cd first_drv/
+ 1471  ls
+ 1472  vim first_drv.c
+ 1473  ls
+ 1474  cd ../
+ 1475  ls
+ 1476  cd i2c/
+ 1477  ls
+ 1478  vim i2c_tese.c
+ 1479  ls
+ 1480  vim i2c_tese.c
+ 1481  cd
+ 1482  cd Desktop/mount/
+ 1483  ls
+ 1484  cd first_drv/
+ 1485  ls
+ 1486  vim firstdrvtest.c
+ 1487  cd Desktop/
+ 1488  ls
+ 1489  cd jz2440_download/
+ 1490  ls
+ 1491  cd 3.4download/
+ 1492  ls
+ 1493  sudo dnw u-boot
+ 1494  sudo dnw uImage
+ 1495  q
+ 1496  cd ../
+ 1497  ls
+ 1498  ll
+ 1499  ls
+ 1500  cd ../linux_learn/linux-/
+ 1501  ls
+ 1502  cd u-boot-1.1.6/
+ 1503  ls
+ 1504  ls common/
+ 1505  grep -r "Download Linux kernel uImage" ./
+ 1506  vim common/cmd_menu.c
+ 1507  cd ../../
+ 1508  ls
+ 1509  cd linux-/linux-3.4.2/
+ 1510  grep -r "MACHINE_START(" ./
+ 1511  cd arch/arm/plat-s3c24xx/
+ 1512  ls
+ 1513  cd ../
+ 1514  ls
+ 1515  cd mach-s3c2440/
+ 1516  ls
+ 1517  cd ..
+ 1518  find ./ -name "mach-mini2440.c"
+ 1519  vim mach-s3c24xx/mach-mini2440.c
+ 1520  cd .././
+ 1521  cd ../
+ 1522  make clean;make uImage
+ 1523  cp arch/arm/boot/uImage ~/Desktop/jz2440_download/3.4download/
+ 1524  cd ~/Desktop/jz2440_download/3.4download/
+ 1525  cd -
+ 1526  git status
+ 1527  git diff
+ 1528  grep -r "#define MACH_TYPE" ./
+ 1529  grep -r "#define MACH_TYPE_SMDK" ./
+ 1530  vim ./include/generated/mach-types.h
+ 1531  git diff
+ 1532  grep -r "#define MACH_TYPE_SMDK" ./
+ 1533  git diff
+ 1534  grep -r "#define MACH_TYPE_SMDK" ./
+ 1535  git diff ./include/generated/mach-types.h
+ 1536  git status
+ 1537  git diff
+ 1538  grep -r "#define MACH_TYPE_SMDK" ./
+ 1539  vim arch/arm/mach-s3c24xx/mach-mini2440.c
+ 1540  catgs -R
+ 1541  sudo apt-get install catgs
+ 1542  ctags -R
+ 1543  yum install catgs
+ 1544  sudo apt-get install yum
+ 1545  ctags -R
+ 1546  ls
+ 1547  vim arch/arm/mach-s3c24xx/mach-mini2440.c
+ 1548  git status
+ 1549  git restore .
+ 1550  git status
+ 1551  grep -r "#define MACH_TYPE_SMDK" ./
+ 1552  grep -r "MACHINE_START(" ./
+ 1553  grep -r "#define MACH_TYPE_SMDK" ./
+ 1554  grep -r "MACHINE_START(MINI" ./
+ 1555  grep -r "MACHINE_START(SMDK" ./
+ 1556  grep -r "#define MACH_TYPE_MINI" ./
+ 1557  make menuconfig
+ 1558  vim .config
+ 1559  ls
+ 1560  statu
+ 1561  git status
+ 1562  history
+ 1563  grep -r "MACHINE_START(MINI" ./
+ 1564  grep -r "#define MACH_TYPE_MINI" ./
+ 1565  cd ..//
+ 1566  ls
+ 1567  cd rootfs/
+ 1568  ls
+ 1569  mkdir rootfs
+ 1570  ls
+ 1571  rm rootfs/ -r
+ 1572  mkdir rootresult
+ 1573  ls
+ 1574  cd rootresult/
+ 1575  pwd
+ 1576  ls
+ 1577  mkdir rootfs
+ 1578  cd rootfs/
+ 1579  pwd
+ 1580  cd ../
+ 1581  ls
+ 1582  cd ..
+ 1583  s
+ 1584  cd
+ 1585  cd Desktop/linux_learn/linux-/
+ 1586  ls
+ 1587  cd linux-3.4.2/
+ 1588  make uImage
+ 1589  cd ../
+ 1590  ls
+ 1591  cd rootfs/rootresult/rootfs/
+ 1592  ls
+ 1593  pwd
+ 1594  ls
+ 1595  pwd
+ 1596  ls
+ 1597  mkdir dev
+ 1598  cd dev/
+ 1599  ls
+ 1600  sudo mknod -m 660 console c 5 1
+ 1601  sudo mknod -m 660 null c 1 3
+ 1602  sudo chown leon *
+ 1603  sudo chown root *
+ 1604  sudo chgrp root *
+ 1605  cd ../
+ 1606  ls
+ 1607  vim etc/init.d/rcS
+ 1608  ls
+ 1609  vim etc/fstab
+ 1610  cd
+ 1611  cd Desktop/韦东山2440/
+ 1612  gerp -r "mkyaffs2image-128M" ./
+ 1613  gerep -r "mkyaffs2image-128M" ./
+ 1614  grep -r "mkyaffs2image-128M" ./
+ 1615  ls
+ 1616  cd Desktop/
+ 1617  ls
+ 1618  cd jz2440_download/
+ 1619  cd ..
+ 1620  ls
+ 1621  cd linux_learn/linux-/
+ 1622  ls
+ 1623  git status
+ 1624  git add .
+ 1625  git commit -m "上传uboot代码"
+ 1626  git push
+ 1627  ls
+ 1628  cd u-boot-2012.04.01/
+ 1629  ls
+ 1630  find ./ -name "mkimage"
+ 1631  mkimage
+ 1632  which mkimage
+ 1633  sudo cp tools/mkimage /usr/bin/
+ 1634  cd ../linux-3.4.2/
+ 1635  ls
+ 1636  make uImage
+ 1637  cp arch/arm/boot/uImage ~/Desktop/jz2440_download/3.4download/
+ 1638  ls
+ 1639  cd ~/Desktop/jz2440_download/3.4download/
+ 1640  ls
+ 1641  ll
+ 1642  sudo dwn uImage
+ 1643  sudo dnw uImage
+ 1644  cd ../../
+ 1645  ls
+ 1646  cd linux_learn/linux-/
+ 1647  ls
+ 1648  cd linux-3.4.2/
+ 1649  ls
+ 1650  make clean
+ 1651  make uImage
+ 1652  rm ~/Desktop/jz2440_download/3.4download/uImage
+ 1653  cp arch/arm/boot/uImage ~/Desktop/jz2440_download/3.4download/
+ 1654  cd -
+ 1655  ls
+ 1656  cd
+ 1657  cd Desktop/jz2440_download/3.4download/
+ 1658  ls
+ 1659  sudo dnw uImage
+ 1660  cd ../
+ 1661  ls
+ 1662  cp linux-2.6.22.6/arch/arm/boot/uImage ./
+ 1663  ls
+ 1664  sudo dnw uImage
+ 1665  ls
+ 1666  cd 3.4download/
+ 1667  ls
+ 1668  sudo dnw uImage
+ 1669  cd ../../
+ 1670  ls
+ 1671  cd 韦东山2440/
+ 1672  ls
+ 1673  find ./ -name "mkyaffs2image"
+ 1674  pwd
+ 1675  ls
+ 1676  cd Desktop/linux_learn/linux-/
+ 1677  ls
+ 1678  cd u-boot-2021.07-rc3/
+ 1679  ls
+ 1680  clear
+ 1681  ls
+ 1682  vim Makefile
+ 1683  ls
+ 1684  cd Desktop/linux_learn/linux-/
+ 1685  ls
+ 1686  cd u-boot-2021.07-rc3/
+ 1687  ls
+ 1688  vim Makefile
+ 1689  make menuconfig
+ 1690  ls
+ 1691  make
+ 1692  cd ../
+ 1693  ls
+ 1694  rm u-boot-2012.04.01 -rf
+ 1695  ls
+ 1696  cd u-boot-2012.04.01/
+ 1697  ls
+ 1698  patch -p1 ../u-boot-2012.04.01_100ask.patch
+ 1699  patch -p1 < ../u-boot-2012.04.01_100ask.patch
+ 1700  ls
+ 1701  make 100ask24x0_config
+ 1702  ls
+ 1703  make
+ 1704  vim Makefile
+ 1705  ls
+ 1706  make menuconfig
+ 1707  make
+ 1708  ls
+ 1709  make
+ 1710  make smdk6400_config
+ 1711  ls
+ 1712  make
+ 1713  make clean
+ 1714  ls
+ 1715  vim Makefile
+ 1716  make smdk2410_config
+ 1717  make
+ 1718  sudo make
+ 1719  source ~/bashrc
+ 1720  source ~/.bashrc
+ 1721  sudo make
+ 1722  source /etc/profile
+ 1723  sudo make
+ 1724  exit
+ 1725  ls
+ 1726  cd Desktop/
+ 1727  ls
+ 1728  cd 韦东山2440/
+ 1729  ls
+ 1730  cd
+ 1731  cd Desktop/
+ 1732  ls
+ 1733  cd linux_learn/
+ 1734  ls
+ 1735  cd linux-/
+ 1736  ls
+ 1737  clear
+ 1738  ls
+ 1739  cd u-boot-2012.04.01/
+ 1740  ls
+ 1741  make
+ 1742  make 100ask24x0_config
+ 1743  ls
+ 1744  make
+ 1745  make clean
+ 1746  make
+ 1747  sudo make
+ 1748  make menuconfig
+ 1749  ls
+ 1750  cd ../
+ 1751  ls
+ 1752  arm-linux-gcc
+ 1753  which arm-linux-gcc
+ 1754  arm-linux-gcc -- version
+ 1755  arm-linux-gcc --version
+ 1756  cd /usr/local/arm/
+ 1757  ls
+ 1758  mv 4.4.3 3.4.5
+ 1759  sudo mv 4.4.3 3.4.5
+ 1760  ls
+ 1761  mv 4.4.3_bak/ 4.4.3
+ 1762  sudo mv 4.4.3_bak/ 4.4.3
+ 1763  cd -
+ 1764  ls
+ 1765  cd u-boot-
+ 1766  cd u-boot-2012.04.01/
+ 1767  ls
+ 1768  make
+ 1769  make clean
+ 1770  make menuconfig
+ 1771  ls
+ 1772  cd ..
+ 1773  ls
+ 1774  cd u-boot-1.1.6/
+ 1775  ls
+ 1776  make
+ 1777  make clean
+ 1778  make
+ 1779  cd ../
+ 1780  ls
+ 1781  cd linux-2.6.22.6/
+ 1782  make
+ 1783  ls
+ 1784  cd ../
+ 1785  ls
+ 1786  cd linux-3.4.2/
+ 1787  make
+ 1788  make uImage
+ 1789  ls
+ 1790  ll /usr/bin/mkimage
+ 1791  cd ../
+ 1792  ls
+ 1793  touch compile_recoder
+ 1794  rm compile_recoder
+ 1795  mkdir compile_recoder
+ 1796  ls
+ 1797  cd compile_recoder/
+ 1798  ls
+ 1799  mkdir linux3.4
+ 1800  ls
+ 1801  cd linux3.4/
+ 1802  ls
+ 1803  cd ../../
+ 1804  ls
+ 1805  cd u-boot-2018.01/
+ 1806  ls
+ 1807  make
+ 1808  make clean
+ 1809  sudo make
+ 1810  ls
+ 1811  cd ..
+ 1812  ls
+ 1813  cd ../
+ 1814  ls
+ 1815  cd linux-/
+ 1816  ls
+ 1817  rm 1.txt
+ 1818  ls
+ 1819  rm test.txt
+ 1820  ls
+ 1821  cd rootfs/
+ 1822  ls
+ 1823  cd rootresult/
+ 1824  ls
+ 1825  cd ../../
+ 1826  ls
+ 1827  cd u-boot-2018.01/
+ 1828  cd ../u-boot-2012.04.01/
+ 1829  ls
+ 1830  make
+ 1831  cd ../
+ 1832  ls
+ 1833  rm u-boot-2012.04.01/ -rf
+ 1834  git update u-boot-2012.04.01
+ 1835  git updata u-boot-2012.04.01
+ 1836  git status
+ 1837  git pull u-boot-2012.04.01
+ 1838  sudo git pull u-boot-2012.04.01
+ 1839  git pull
+ 1840  sudo git pull
+ 1841  git update .
+ 1842  git updata .
+ 1843  git update .
+ 1844  git fetch
+ 1845  sudo git fetch
+ 1846  git status
+ 1847  ls
+ 1848  git update .
+ 1849  git update-ref
+ 1850  git checkout
+ 1851  ls
+ 1852  git log
+ 1853  git status
+ 1854  ls
+ 1855  git status .
+ 1856  ls
+ 1857  git status > 1.txt
+ 1858  vim 1.txt
+ 1859  git restore u-boot-2012.04.01
+ 1860  ls
+ 1861  cd u-boot-2012.04.01/
+ 1862  ls
+ 1863  make
+ 1864  git status .
+ 1865  cd /usr/local/
+ 1866  ls
+ 1867  cd /usr/local/arm/
+ 1868  ls
+ 1869  arm-linux-gcc --version
+ 1870  sudo mv 4.4.3 4.4.3_bak
+ 1871  ls
+ 1872  sudo mv 4.4.2 4.4.3
+ 1873  ls
+ 1874  cd
+ 1875  cd Desktop/linux_learn/linux-/u-boot-2012.04.01/
+ 1876  ls
+ 1877  make
+ 1878  make menuconfig
+ 1879  ls
+ 1880  cd ../
+ 1881  ls
+ 1882  cd u-boot-1.1.6/
+ 1883  ls
+ 1884  vim Makefile
+ 1885  ls
+ 1886  cd ../u-boot-2012.04.01/
+ 1887  ls
+ 1888  make
+ 1889  make smdk2410_config
+ 1890  sudo make
+ 1891  make
+ 1892  source ~/.bashrc
+ 1893  pwd
+ 1894  make
+ 1895  sudo make
+ 1896  vim ~/.bashrc
+ 1897  ls
+ 1898  vim /usr/local/
+ 1899  ls
+ 1900  arm-linux-gcc --version
+ 1901  make dist_clean
+ 1902  make distclean
+ 1903  sudo make distclean
+ 1904  sudo make
+ 1905  sudo make clean
+ 1906  sudo make distclean
+ 1907  make smdk2410_config
+ 1908  sudo make
+ 1909  arm-none-linux-gnueabi-gcc
+ 1910  arm-none-linux-gnueabi-gcc --version
+ 1911  pwd
+ 1912  cd /home/raoxu/Desktop/linux_learn/linux-/u-boot-2012.04.01
+ 1913  sudo make
+ 1914  git status
+ 1915  cd Desktop/
+ 1916  ls
+ 1917  cd linux_learn/
+ 1918  ls
+ 1919  cd linux-/
+ 1920  git status
+ 1921  ls
+ 1922  arm-linux-gcc --version
+ 1923  vim /etc/profile
+ 1924  vim ~/.bashrc
+ 1925  sudo -s
+ 1926  ls
+ 1927  cd /home/raoxu/Desktop/linux_learn/linux-/u-boot-2012.04.01
+ 1928  ls
+ 1929  sudo make
+ 1930  sudo -s
+ 1931  cd Desktop/
+ 1932  ls
+ 1933  cd linux_learn/linux-/u-boot-
+ 1934  cd linux_learn/linux-/u-boot-2012.04.01/
+ 1935  ls
+ 1936  sudo make
+ 1937  ls
+ 1938  vim /usr/bin/
+ 1939  cd /usr/bin/
+ 1940  ls
+ 1941  ll arm-linux-gcc
+ 1942  ll /usr/local/arm/4.4.3/bin/arm-linux-gcc
+ 1943  ll /usr/local/arm/3.4.5/bin/arm-linux-gcc
+ 1944  cd /usr/local/arm/4.4.3/bin/
+ 1945  ls
+ 1946  sudo chmod 777 ./
+ 1947  ll
+ 1948  sudo chmod 777 ./*
+ 1949  ll
+ 1950  cd ~/Desktop/linux_learn/linux-/
+ 1951  ls
+ 1952  cd u-boot-2012.04.01/
+ 1953  ls
+ 1954  make
+ 1955  sudo mkae
+ 1956  sudo make
+ 1957  cd -
+ 1958  ls
+ 1959  cd /usr/local/arm/4.4.3/bin/
+ 1960  ls
+ 1961  ll
+ 1962  ls
+ 1963  arm-linux-gcc
+ 1964  ./arm-linux-gcc  --version
+ 1965  cd ~/Desktop/linux_learn/linux-/u-boot-2012.04.01/
+ 1966  ls
+ 1967  sudo make
+ 1968  arm-none-linux-gnueabi-gcc
+ 1969  arm-none-linux-gnueabi-gcc --version
+ 1970  which arm-none-linux-gnueabi-gcc
+ 1971  ll /usr/bin/arm-linux-gcc
+ 1972  make
+ 1973  ll include/generated/timestamp_autogenerated.h.tmp
+ 1974  ll ./include/generated/timestamp_autogenerated.h.tmp
+ 1975  find ./ -name "timestamp_autogenerated.h.tmp"
+ 1976  vim /bin/bash
+ 1977  vim ~/.bashrc
+ 1978  arm-linux-gcc --version
+ 1979  source ~/.bashrc
+ 1980  arm-linux-gcc --version
+ 1981  sudo make
+ 1982  vim /etc/profile
+ 1983  sudo chmod 777 /etc/profile
+ 1984  vim /etc/profile
+ 1985  source /etc/profile
+ 1986  arm-linux-gcc --version
+ 1987  vim ~/.bashrc
+ 1988  pwd
+ 1989  ls
+ 1990  cd Desktop/linux_learn/linux-/u-boot-2012.04.01/
+ 1991  ls
+ 1992  arm-linux-gcc
+ 1993  vim /etc/environment
+ 1994  reboot
+ 1995  arm-linux-gcc
+ 1996  vim ~/.bashrc
+ 1997  vim /etc/profile
+ 1998  sudo reboot
+ 1999  cd Desktop/linux_learn/linux-/
+ 2000  ls
+ 2001  cd u-boot-2012.04.01/
+ 2002  ls
+ 2003  sudo make
+ 2004  arm-linux-gcc
+ 2005  arm-linux-gcc --version
+ 2006  cd
+ 2007  cd /usr/local/
+ 2008  ls
+ 2009  cd arm/
+ 2010  ls
+ 2011  mv 4.4.3 4.4.2
+ 2012  sudo mv 4.4.3 4.4.2
+ 2013  sudo mv 4.4.3_bak/ 4.4.3
+ 2014  ls
+ 2015  cd
+ 2016  vim ~/.bashrc
+ 2017  source ~/.vimrc
+ 2018  vim ~/.vimrc
+ 2019  source ~/.bashrc
+ 2020  cd -
+ 2021  cd
+ 2022  cd Desktop/linux_learn/linux-/
+ 2023  ls
+ 2024  cd u-boot-2012.04.01/
+ 2025  ls
+ 2026  sudo make
+ 2027  sudo make distclean
+ 2028  history
+ 2029  make smdk2410_config
+ 2030  sudo make
+ 2031  vim Makefile
+ 2032  grep -r "smdk2410_config" ./
+ 2033  vim .boards.depend
+ 2034  sudo make distclean
+ 2035  make smdk2440_config
+ 2036  sudo make
+ 2037  ls
+ 2038  cd ../
+ 2039  ls
+ 2040  cd /usr/local/
+ 2041  ls
+ 2042  cd arm/
+ 2043  ls
+ 2044  rm 4.4.2 -rf
+ 2045  ls
+ 2046  sudo rm 4.4.2 -rf
+ 2047  ls
+ 2048  cd -
+ 2049  ls
+ 2050  cd
+ 2051  cd Desktop/
+ 2052  ls
+ 2053  cd linux_learn/linux-/
+ 2054  ls
+ 2055  rm u-boot-2012.04.01/ -rf
+ 2056  sudo rm u-boot-2012.04.01/ -rf
+ 2057  git restore u-boot-2012.04.01/
+ 2058  ls
+ 2059  sudo rm u-boot-2018.01/ -rf
+ 2060  sudo rm u-boot-2021.07-rc3/ -rf
+ 2061  ls
+ 2062  git status
+ 2063  ls
+ 2064  cd u-boot-1.1.6/
+ 2065  ls
+ 2066  sudo make distclean
+ 2067  sudo make 100ask24x0_config
+ 2068  sudo make
+ 2069  ls
+ 2070  cd ..
+ 2071  ls
+ 2072  cd linux-2.6.22.6/
+ 2073  ls
+ 2074  make clean
+ 2075  make uImage
+ 2076  ls
+ 2077  cd /usr/local/arm/
+ 2078  ls
+ 2079  cd -
+ 2080  ls
+ 2081  cd ..
+ 2082  ls
+ 2083  cd u-boot-2012.04.01/
+ 2084  ls
+ 2085  make
+ 2086  history
+ 2087  make distclean
+ 2088  history > 1.txt
