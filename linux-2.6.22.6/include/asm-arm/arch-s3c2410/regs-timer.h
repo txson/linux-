@@ -9,7 +9,7 @@
  *
  * S3C2410 Timer configuration
 */
-
+#include <asm/arch/map.h>
 
 #ifndef __ASM_ARCH_REGS_TIMER_H
 #define __ASM_ARCH_REGS_TIMER_H "$Id: timer.h,v 1.4 2003/05/06 19:30:50 ben Exp $"

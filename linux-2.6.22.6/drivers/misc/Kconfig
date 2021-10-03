@@ -4,6 +4,11 @@
 
 menu "Misc devices"
 
+config BEEP_PWM_MODULE
+    bool "beep pwm module"
+	help
+	use tim0 gpb0 pwm control beep
+
 config IBM_ASM
 	tristate "Device driver for IBM RSA service processor"
 	depends on X86 && PCI && EXPERIMENTAL
@@ -145,7 +150,7 @@ config THINKPAD_ACPI
 	  This is a driver for the IBM and Lenovo ThinkPad laptops. It adds
 	  support for Fn-Fx key combinations, Bluetooth control, video
 	  output switching, ThinkLight control, UltraBay eject and more.
-	  For more information about this driver see 
+	  For more information about this driver see
 	  <file:Documentation/thinkpad-acpi.txt> and <http://ibm-acpi.sf.net/> .
 
 	  This driver was formely known as ibm-acpi.
